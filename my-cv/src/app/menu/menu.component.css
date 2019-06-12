@@ -8,3 +8,12 @@ img {
     font-family: simplificasimplifica;
     font-size: 80%;
 }
+
+.navbar-collapse {
+    margin-left: 13%;
+}
+
+a {
+    color: white;
+    font-family: poppinsregular;
+}

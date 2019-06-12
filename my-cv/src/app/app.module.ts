@@ -7,12 +7,16 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { TimelineComponent } from './timeline/timeline.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    PortfolioComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,
